@@ -16,13 +16,13 @@
 - For testing all service methods by using unit test
 - JUnit library
 
-# Testing API's
+# API Testing Tools
 - Postman
 - Swagger ui and springfox
 
 # Samples REST API's:
 
-#*  POST: http://localhost:8080/api/products/
+# POST: http://localhost:8080/api/products/
 
 {
 "productId": 1005,
