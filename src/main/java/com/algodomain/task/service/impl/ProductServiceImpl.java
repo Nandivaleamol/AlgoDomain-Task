@@ -20,13 +20,13 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public Product createProduct(Product product) {
 
-        //----------------Final Price Calculation--------------------
-        double discountAmount = product.getBasePrice() * (product.getDiscount() / 100);
-        Charges charges = product.getCharges();
-        double gstAmount = product.getBasePrice() * (charges.getGst() / 100);
-
-        double finalPrice = product.getBasePrice()+gstAmount-discountAmount;
-        product.setFinalPrice(finalPrice);
+//        //----------------Final Price Calculation--------------------
+//        double discountAmount = product.getBasePrice() * (product.getDiscount() / 100);
+//        Charges charges = product.getCharges();
+//        double gstAmount = product.getBasePrice() * (charges.getGst() / 100);
+//
+//        double finalPrice = (product.getBasePrice()+gstAmount)-discountAmount;
+//        product.setFinalPrice(finalPrice);
       // ------------------------------------------------------------------
 
         return this.productRepository.save(product);
