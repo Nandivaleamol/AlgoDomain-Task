@@ -1,5 +1,7 @@
 # AlgoDomain-Task
  SPRINGBOOT CRUD REST API's
+ 
+ - Developer : Amol Nandivale
 
 #Task- Product Repository and It's CRUD REST API's
 
