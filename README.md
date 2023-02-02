@@ -13,12 +13,12 @@
 6. Handled Exceptions
 
 # Unit Testing
-- For testing all service methods by using unit test
+- All backend service methods are well tested by using unit.
 - JUnit library
 
 # API Testing Tools
 - Postman
-- Swagger ui and springfox
+- Swagger UI
 
 # Samples REST API's:
 
