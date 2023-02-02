@@ -52,9 +52,9 @@
 "finalPrice": 0.0
 }
 
-# GET: 
-- http://localhost:8080/api/products/1001
--single fetch single product by id
+# GET: http://localhost:8080/api/products/1001
+- fetch single product by id
+-
 * Response:
   {
   "productId": 1001,
@@ -70,9 +70,9 @@
   },
   "finalPrice": 51500.00035762787
   }
-# GET:
+# GET: http://localhost:8080/api/products/
 - Fetch all products
-- http://localhost:8080/api/products/
+-
 * Response:
 
   [
@@ -148,8 +148,8 @@
   }
   ]
 
-# PUT:
-- Update product by product id
+# PUT: http://localhost:8080/api/products/1001
+- Update product details by product id
 - http://localhost:8080/api/products/1001
 * Request:
   {
