@@ -2,17 +2,20 @@
  SPRINGBOOT CRUD REST API's
  
  - Developer : Amol Nandivale
+ - Date : 02-02-2023
+ - Email id: nandivaleamol@gmail.com
 
 #Task- Product Repository and It's CRUD REST API's
 
 # Used Technologies
 1. java 8 - to bring functional programming and concise code
 2. Spring boot- Creating CRUD Rest API's
-3. Swagger API Documentation
-4. Database: MySQL
-5. Lombok Library - to avoid boilerplate code of entity classes
-5. Builder design pattern
-6. Handled Exceptions
+3. Spring Data JPA
+4. Swagger API Documentation
+5. Database: MySQL
+6. Lombok Library - to avoid boilerplate code of entity classes
+7. Builder design pattern
+8. Handled Basic Exceptions to avoid runtime exceptions
 
 # Unit Testing
 - All backend service methods are well tested by using unit.
