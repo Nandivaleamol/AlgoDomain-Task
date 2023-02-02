@@ -187,7 +187,14 @@
   "finalPrice": 50353.0
   }
 
-
+# DELETE: http://localhost:8080/api/products/1003
+- To delete existing resource on server
+- Response: 
+- 
+ {
+    "message": "Product deleted successfully!!",
+    "success": true
+}
 
 
 
